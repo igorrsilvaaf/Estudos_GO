@@ -2,7 +2,12 @@ package main
 
 import "fmt"
 
+func main() {
+	var teste string
+	var memoria *string
 
-func main(){
-	fmt.Println("Ponteiros")
+	teste = "Igor da Silva"
+	memoria = &teste
+
+	fmt.Println(teste, *memoria)
 }
