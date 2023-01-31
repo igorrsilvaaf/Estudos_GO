@@ -19,6 +19,6 @@ type matricula struct {
 
 func main() {
 	cadastro := aluno{"Igor", "da Silva Francisco", 27, 10287794940, 12345678, 48991781573}
-	m1 := matricula{cadastro, 01, "Analise e Desenvolvimento de sistema", "Tubarão"}
+	m1 := matricula{cadastro, 01, "Analise e Desenvolvimento de sistema"}
 	fmt.Print(m1)
 }

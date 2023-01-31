@@ -8,7 +8,8 @@ import (
 
 func main() {
 	fmt.Println("Escrevendo do arquivo main")
-	auxiliar.Escrever()
+	auxiliar.Escrever() //Nome do pacote + a minha funcao
+	//auxiliar.Escrever2()
 	erro := checkmail.ValidateFormat("igorprogramacao24@gmail.com")
 	fmt.Println(erro)
 }

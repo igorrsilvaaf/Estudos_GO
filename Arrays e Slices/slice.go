@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	arrayTeste := [...]int{0, 1, 2, 3, 4}
+	arrayTeste := [...]int{0, 1, 2, 3, 4} //[...] quer dizer que meu array pode ter varias posiçoes
 	slice := []int{0, 1, 2, 3, 4}
 	fmt.Println(slice, arrayTeste)
 

@@ -9,6 +9,7 @@ func main() {
 	fmt.Println(nome1)
 	fmt.Println(idade1)
 
+	//declarando varias variaveis de uma unica vez
 	var (
 		nome  string = "Luana Fernandes"
 		idade int    = 25
