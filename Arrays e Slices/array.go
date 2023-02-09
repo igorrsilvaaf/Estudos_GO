@@ -11,6 +11,6 @@ func main() {
 	//teste[4] = "Posicao04"
 	//fmt.Println(teste)
 
-	teste2 := [5]string{"Posicao01", "Posicao02", "Posicao03", "Posicao04", "Posicao05"}
+	teste2 := [7]string{"Posicao0", "Posicao01", "Posicao02", "Posicao03", "Posicao04", "Posicao05"}
 	fmt.Println(teste2)
 }
