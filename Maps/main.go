@@ -28,5 +28,10 @@ func main() {
 		"Estado": "Sc",
 	}
 
+	user["contatos"] = map[string]string{
+		"Telefone": "48991781573",
+		"Email":    "teste@teste.com.br",
+	}
+
 	fmt.Println(user)
 }
